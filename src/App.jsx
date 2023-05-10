@@ -223,6 +223,9 @@ function App() {
                   <div className='cardImgStyle'>
                     <img className='cardImg' src='https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg'></img>
                   </div>
+                  <div className='learnCardTextContainer'>
+                    
+                  </div>
                 </div>
               </div>
             </div>
