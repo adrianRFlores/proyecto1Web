@@ -103,6 +103,52 @@ function App() {
           <div className='dreamContainer'>
             <div className='titleDiv'><h1>Dream it. Build it. Grow it.</h1></div>
             <div className='subheading'><p className='subtitle'>Whatever your "it" is-a SaaS app, website, or eCommerce store-build it here</p></div>
+            <div className='imgBtnHolder'>
+              <a className='imgBtn'>
+                <img src='https://doimages.nyc3.digitaloceanspaces.com/google-logo.svg' alt='google logo'></img>
+                <span>Sign up with Google</span>
+              </a>
+              <a className='imgBtn'>
+                <img src='https://doimages.nyc3.digitaloceanspaces.com/github-logo.svg' alt='github logo'></img>
+                <span>Sign up with GitHub</span>
+              </a>
+              <a className='imgBtn' id='blueBtn'>
+                Sign up with email
+              </a>
+            </div>
+          </div>
+          <div className='statContainer'>
+            <div className='whitebg'></div>
+            <div className='stats'>
+              <div className='statStyleContainer'>
+                <div className='statCol'>
+                  <h4>#1</h4>
+                  <div className='textHolder'>
+                    <p>In IaaS usability, VPS for SMBs, & SMB Hosting&nbsp;
+                      <a href='/'>on G2</a>
+                    </p>
+                  </div>
+                </div>
+                <div className='statCol'>
+                  <h4>15</h4>
+                  <div className='textHolder'>
+                    <p>Globally distributed datacenters</p>
+                  </div>
+                </div>
+                <div className='statCol'>
+                  <h4>99.99%</h4>
+                  <div className='textHolder'>
+                    <p>Uptime SLA for Droplets and Volumes block storage</p>
+                  </div>
+                </div>
+                <div className='statCol'>
+                  <h4>&#62;600k</h4>
+                  <div className='textHolder'>
+                    <p>Customers building with DigitalOcean</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

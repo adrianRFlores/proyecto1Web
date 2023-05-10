@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap');
 
 body {
   line-height: 1.4;
@@ -172,11 +173,10 @@ div.up {
 
 .stats-dream {
   background: rgb(0, 105, 255);
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 0px;
   position: relative;
   z-index: 0;
-  height: 60vh;
 }
 
 .mainContentWrapper {
@@ -185,12 +185,11 @@ div.up {
 
 .bgDiv {
   background-color: rgb(0, 105, 255);
-  height: 850px;
+  height: 600px;
   position: absolute;
   top: 0px;
   width: 100%;
   z-index: -1;
-
 }
 
 .ripple {
@@ -202,17 +201,16 @@ div.up {
 
 .leftHolder {
   position: absolute;
-  bottom: 141px;
+  bottom: 289px;
 }
 
 .rightHolder {
-  bottom: 141px;
+  bottom: 289px;
   position: absolute;
   right: 0px;
 }
 
 .dreamContainer {
-  /*background-color: rgb(0, 105, 255);*/
   background-color: transparent;
   padding: 64px 0px;
   display: flex;
@@ -240,7 +238,7 @@ h1 {
 
 .subheading {
   max-width: 720px;
-  margin: 15px auto 80px;
+  margin: 15px auto 0px;
 }
 
 .subtitle {
@@ -252,3 +250,113 @@ h1 {
   line-height: 150%;
   text-align: center;
 }
+
+.imgBtnHolder {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 60px;
+  padding: 0px;
+}
+
+.imgBtn {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
+  color: rgb(8, 27, 75);
+  display: flex;
+  font-weight: 600;
+  padding: 12px 16px;
+  transition: all 0.2s ease 0s;
+}
+
+.imgBtn span{
+  margin-left: 16px;
+}
+
+#blueBtn {
+  align-items: center;
+  background-color: rgb(0, 44, 155);
+  border-radius: 10px;
+  box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-weight: 600;
+  padding: 12px 24px;
+  z-index: 10;
+}
+
+#blueBtn:hover {
+  background-color: rgb(0, 36, 124);
+  box-shadow: rgba(8, 27, 75, 0.35) 0px 2px 1px 0px;
+}
+
+.imgBtn:not(:last-of-type) {
+  margin-right: 24px;
+}
+
+.statContainer {
+  background-color: rgb(249, 250, 254);
+  margin-top: 64px;
+  padding-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.whitebg {
+  background-color: rgb(249, 250, 254);
+  height: 55px;
+  position: absolute;
+  top: -55px;
+  width: 100%;
+  z-index: 10;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 80rem;
+  width: 100%;
+  padding: 0px 1rem;
+}
+
+.statStyleContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.statCol {
+  color: rgb(77, 91, 124);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-right: 58.67px;
+  max-width: 228px;
+  text-align: left;
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Epilogue', sans-serif;
+  color: rgb(0, 105, 255);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0px 0px 4px;
+}
+
+.statCol p{
+  line-height: 1.5;
+  margin-top: 0; /*ojo*/
+}
+
+.statsCol a{
+  border-bottom: 1px solid #0069ff;
+  color: #0069ff;
+  text-decoration: none;
+}
+
