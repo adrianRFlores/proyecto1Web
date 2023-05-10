@@ -71,7 +71,7 @@ function App() {
               <li><button className='dropdownBtn'>Marketplace</button></li>
               <li>
                 <button className="dropdownBtn" aria-expanded={communityState[0]} aria-controls='community-menu' onClick={toggleCommunity}>
-                  Products
+                  Community
                   <svg xmlns="http://www.w3.org/2000/svg" className={communityState[1]} 
                   width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="9 18 15 12 9 6"></polyline>
@@ -124,33 +124,110 @@ function App() {
                 <div className='statCol'>
                   <h4>#1</h4>
                   <div className='textHolder'>
-                    <p>In IaaS usability, VPS for SMBs, & SMB Hosting&nbsp;
-                      <a href='/'>on G2</a>
+                    <p className='statDesc'>In IaaS usability, VPS for SMBs, & SMB Hosting&nbsp;
+                      <a href='https://www.g2.com/products/digitalocean/reviews'>on G2</a>
                     </p>
                   </div>
                 </div>
                 <div className='statCol'>
                   <h4>15</h4>
                   <div className='textHolder'>
-                    <p>Globally distributed datacenters</p>
+                    <p className='statDesc'>Globally distributed datacenters</p>
                   </div>
                 </div>
                 <div className='statCol'>
                   <h4>99.99%</h4>
                   <div className='textHolder'>
-                    <p>Uptime SLA for Droplets and Volumes block storage</p>
+                    <p className='statDesc'>Uptime SLA for Droplets and Volumes block storage</p>
                   </div>
                 </div>
                 <div className='statCol'>
                   <h4>&#62;600k</h4>
                   <div className='textHolder'>
-                    <p>Customers building with DigitalOcean</p>
+                    <p className='statDesc'>Customers building with DigitalOcean</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        <section className='s2'>
+          <div className='waveTop'></div>
+          <div className='sliderHolder'>
+            <h2 className='sliderTitle'>How real businesses use DigitalOcean to accelerate their growth</h2>
+            <div className='styledContainer'>
+              <div className='styledSliderContainer'>
+                <div className='blueContainer'>
+                  <img className='garnish' src='https://www.digitalocean.com/_next/static/media/garnish-blue.26799a4e.svg' alt='garnish'></img>
+                  <div className='blueBox'>
+                    <div className='infoCardHeader'>
+                      <img className='businesslogo' src='https://www.digitalocean.com/_next/static/media/datacake-logo.649cea4d.svg' alt='logo'></img>
+                      <div className='buttonArrowHeader'>
+                        <button className='arrowBtn'>&#60;—</button>
+                        <button className='arrowBtn'>—&gt;</button>
+                      </div>
+                    </div>
+                    <h4 className='cardTitle'>Datacake relies on DigitalOcean to support their low-code platform through rapid growth.</h4>
+                    <p>“For startups and other companies, DigitalOcean is a great fit. Compared to other products that are hard to maintain, 
+                      DigitalOcean makes it super easy to spin up a server or whatever else you are looking for.”</p>
+                    <p>—Simon Kemper, CEO, Founder</p>
+                    <div className='infoCardFooter'>
+                      <a className='textLinkWithArrow' href='/'>Watch the video</a>
+                    </div>
+                  </div>
+                </div>
+                <div className='businessImgContainer'>
+                  <img src='https://www.digitalocean.com/_next/static/media/datacake-image.6c12e662.png' alt='datacake image' className='datacakeImg'></img>
+                  <img src='https://www.digitalocean.com/_next/static/media/garnish-2-blue.5aa0f894.svg' alt='garnish2' className='garnish2'></img>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='bottomWaveBg'></div>
+        </section>
+        <section className='trialCard'>
+          <div className='trialContainer'>
+            <div className='bannerWrapper'>
+              <img className='cloudJourney' src='https://www.digitalocean.com/_next/static/media/lighthouse-clouds-blue.8a1f1a95.svg'></img>
+              <div className='trialTextHolder'>
+                <div color='#fff' className='bannerTitleStyle'>
+                  <h3 className='bannerTitle'>Build eCommerce stores and websites seamlessly with Cloudways</h3>
+                </div>
+                <div className='bannerDesc' color='#fff'>
+                  <p>Leave the hassles of running a website to the experts. Sign up for managed hosting through Cloudways now and get $100 in free credit.</p>
+                </div>
+                <div className='bannerLink'>
+                  <p>
+                    <a>Start my free trial</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className='expertContainerOuter'>
+          <div className='wrapperInner'>
+            <div className='sliceContainer'>
+              <div className='headline'>
+                <div className='hlStyle'>
+                  <h2 className='expertHL'>Learn from the experts</h2>
+                  <div className='hlBody'>
+                    <div className='hlBodyStyle'>
+                      <p>Whether you want to learn about funding your business, installing Linux on Ubuntu, or getting started on DigitalOcean, we have the educational resources for you.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='cardsContainer'>
+                <div className='learnCard'>
+                  <div className='cardImgStyle'>
+                    <img className='cardImg' src='https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg'></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
