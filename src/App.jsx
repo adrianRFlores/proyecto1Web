@@ -219,17 +219,97 @@ function App() {
                 </div>
               </div>
               <div className='cardsContainer'>
-                <div className='learnCard'>
+                <div className='learnCard' id='docs'>
                   <div className='cardImgStyle'>
                     <img className='cardImg' src='https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg'></img>
                   </div>
                   <div className='learnCardTextContainer'>
-                    
+                    <div className='cardHeader'>
+                      <h3>Product documentation</h3>
+                    </div>
+                    <div className='cardBody'>
+                      <div className='bodyMarkdown'>
+                        <p>Learn how to spin up a virtual machine, get started with block storage, and more with in-depth documentation.</p>
+                      </div>
+                    </div>
+                    <div className='cardFooter'>
+                      <p>
+                        <a href='https://docs.digitalocean.com/'>Learn more</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className='learnCard' id='advice'>
+                  <div className='cardImgStyle'>
+                    <img className='cardImg' src='https://www.digitalocean.com/_next/static/media/boat-storm-lighthouse.4bdddec0.png'></img>
+                  </div>
+                  <div className='learnCardTextContainer'>
+                    <div className='cardHeader'>
+                      <h3>Business advice</h3>
+                    </div>
+                    <div className='cardBody'>
+                      <div className='bodyMarkdown'>
+                        <p>The Wave is DigitalOcean&#8217;s hub for startup and business-focused content on funding, hiring, and scaling.</p>
+                      </div>
+                    </div>
+                    <div className='cardFooter'>
+                      <p>
+                        <a href='https://docs.digitalocean.com/'>Learn more</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className='learnCard' id='expertise'>
+                  <div className='cardImgStyle'>
+                    <img className='cardImg' src='https://www.digitalocean.com/_next/static/media/heart-speech-bubble-asterisk-graphic.6eb0678f.svg'></img>
+                  </div>
+                  <div className='learnCardTextContainer'>
+                    <div className='cardHeader'>
+                      <h3>Technical expertise</h3>
+                    </div>
+                    <div className='cardBody'>
+                      <div className='bodyMarkdown'>
+                        <p>Visit DigitalOcean&#8217;s Community Website and CSS-Tricks to learn from wide range of technical tutorials.</p>
+                      </div>
+                    </div>
+                    <div className='cardFooter'>
+                      <p>
+                        <a href='https://docs.digitalocean.com/'>Learn more</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <section className='newCTABand'>
+          <div className='lightTopWave'></div>
+          <div className='CTABandContainer'>
+            <div className='CTAStyledDiv'>
+              <div className='CTATitle'>
+                <h2>Start building today</h2>
+              </div>
+              <div className='CTABody'>
+                <p>Sign up now and you'll be up and running on DigitalOcean in just minutes.</p>
+              </div>
+              <div className='CTABtn'>
+                <a href='https://cloud.digitalocean.com/registrations/new'>Sign up to get started</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className='footerWave'></div>
+      <div className='seaFloor'>
+        <div className='sfLeft'>
+          <img src='https://www.digitalocean.com/_next/static/media/seaFloorLeft.53f70537.svg'></img>
+        </div>
+        <div className='sfMid'>
+          <img src='https://www.digitalocean.com/_next/static/media/seaFloorMiddle.b8dc47b6.svg'></img>
+        </div>
+        <div className='sfRight'>
+          <img src='https://www.digitalocean.com/_next/static/media/seaFloorRight.9cccc865.svg'></img>
         </div>
       </div>
     </div>
