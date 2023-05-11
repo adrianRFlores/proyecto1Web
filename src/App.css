@@ -92,6 +92,7 @@ a {
 }
 
 .dropdownBtn {
+  font-family: inherit;
   border: none;
   border-radius: 10px;
   font-size: initial;
@@ -101,7 +102,7 @@ a {
   background-color: transparent;
   color: rgb(36, 51, 90);
   display: flex;
-  font-weight: 549;
+  font-weight: 500;
   gap: 8px;
   transition: 0.15s;
 }
@@ -116,6 +117,7 @@ svg.up {
 }
 
 svg.down {
+  stroke-width: 1;
   transform: rotateZ(90deg);
 }
 
@@ -159,7 +161,9 @@ div.up {
 
 #signup {
   color: #fff;
-  padding: 12px 20px;
+  line-height: 24px;
+  height: 40px;
+  padding: 0px 20px;
   background-color: rgb(0, 105, 255);
   transition: 0.15s;
 }
@@ -322,7 +326,6 @@ h1 {
   margin: 0px auto;
   max-width: 80rem;
   width: 100%;
-  padding: 0px 1rem;
 }
 
 .statStyleContainer {
@@ -911,6 +914,10 @@ h4 {
   padding: 12px 24px;
   transition: all 0.2s ease 0s;
   text-decoration: none;
+}
+
+.CTABtn a:hover {
+  background-color: rgb(249, 250, 254);
 }
 
 .footerWave {

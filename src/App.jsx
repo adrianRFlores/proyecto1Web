@@ -26,7 +26,7 @@ function App() {
           <div className='textWrapper'>
             <a className='new'>New! Premium CPU-Optimized Droplets are now available. Learn more -&gt;</a>
             <div className='blogWrapper'>
-              <a>We're Hiring</a>
+              <a>We're hiring</a>
               <a>Blog</a>
               <a>Docs</a>
               <a>Get Support</a>
@@ -56,7 +56,6 @@ function App() {
                     <polyline points="9 18 15 12 9 6"></polyline>
                   </svg>
                 </button>
-                <div id='products-menu' className={productState[1]}>hola mundo</div>
               </li>
               <li>
                 <button className="dropdownBtn" aria-expanded={solutionsState[0]} aria-controls='solutions-menu' onClick={toggleSolutions}>
@@ -66,7 +65,6 @@ function App() {
                     <polyline points="9 18 15 12 9 6"></polyline>
                   </svg>
                 </button>
-                <div id='solutions-menu' className={solutionsState[1]}>hola mundo 2</div>
               </li>
               <li><button className='dropdownBtn'>Marketplace</button></li>
               <li>
@@ -77,7 +75,6 @@ function App() {
                     <polyline points="9 18 15 12 9 6"></polyline>
                   </svg>
                 </button>
-                <div id='community-menu' className={communityState[1]}>hola mundo 3</div>
               </li>
               <li><button className='dropdownBtn'>Pricing</button></li>
             </ul>
