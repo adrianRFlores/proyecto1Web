@@ -1,11 +1,11 @@
-import express from "express"
+import express from 'express';
 
-const app = express()
+const app = express();
 
-app.use("*", (req, res) => {
-    res.send("server side")
-})
+app.use('*', (req, res) => {
+  res.send('server side');
+});
 
 app.listen(3005, () => {
-    console.log("App corriendo")
-})
+  console.log('App corriendo');
+});
