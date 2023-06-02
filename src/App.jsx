@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import LearnCard from './components/LearnCard/LearnCard';
 import './App.css';
 
 function App() {
@@ -255,66 +256,21 @@ function App() {
                   </div>
                 </div>
                 <div className="cardsContainer">
-                  <div className="learnCard" id="docs">
-                    <div className="cardImgStyle">
-                      <img className="cardImg" src="https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg" />
-                    </div>
-                    <div className="learnCardTextContainer">
-                      <div className="cardHeader">
-                        <h3>Product documentation</h3>
-                      </div>
-                      <div className="cardBody">
-                        <div className="bodyMarkdown">
-                          <p>Learn how to spin up a VM and more with in-depth documentation.</p>
-                        </div>
-                      </div>
-                      <div className="cardFooter">
-                        <p>
-                          <a href="https://docs.digitalocean.com/">Learn more</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="learnCard" id="advice">
-                    <div className="cardImgStyle">
-                      <img className="cardImg" src="https://www.digitalocean.com/_next/static/media/boat-storm-lighthouse.4bdddec0.png" />
-                    </div>
-                    <div className="learnCardTextContainer">
-                      <div className="cardHeader">
-                        <h3>Business advice</h3>
-                      </div>
-                      <div className="cardBody">
-                        <div className="bodyMarkdown">
-                          <p>The Wave is our hub for startup content on funding and hiring.</p>
-                        </div>
-                      </div>
-                      <div className="cardFooter">
-                        <p>
-                          <a href="https://docs.digitalocean.com/">Learn more</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="learnCard" id="expertise">
-                    <div className="cardImgStyle">
-                      <img className="cardImg" src="https://www.digitalocean.com/_next/static/media/heart-speech-bubble-asterisk-graphic.6eb0678f.svg" />
-                    </div>
-                    <div className="learnCardTextContainer">
-                      <div className="cardHeader">
-                        <h3>Technical expertise</h3>
-                      </div>
-                      <div className="cardBody">
-                        <div className="bodyMarkdown">
-                          <p>Visit our Community Website to learn from wide range of tutorials.</p>
-                        </div>
-                      </div>
-                      <div className="cardFooter">
-                        <p>
-                          <a href="https://docs.digitalocean.com/">Learn more</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <LearnCard id="docs"
+                  imgsrc="https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg"
+                  header="Product documentation"
+                  body="Learn how to spin up a VM and more with in-depth documentation."
+                  href="https://docs.digitalocean.com/" />
+                  <LearnCard id="advice"
+                  imgsrc="https://www.digitalocean.com/_next/static/media/boat-storm-lighthouse.4bdddec0.png"
+                  header="Business advice"
+                  body="The Wave is our hub for startup content on funding and hiring."
+                  href="https://docs.digitalocean.com/" />
+                  <LearnCard id="expertise"
+                  imgsrc="https://www.digitalocean.com/_next/static/media/heart-speech-bubble-asterisk-graphic.6eb0678f.svg"
+                  header="Technical expertise"
+                  body="Visit our Community Website to learn from wide range of tutorials."
+                  href="https://docs.digitalocean.com/" />
                 </div>
               </div>
             </div>
